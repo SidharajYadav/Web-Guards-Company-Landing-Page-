@@ -1,0 +1,23 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 26 Jun 2024 08:39:25 at https://bestwpware.com/html/tf/laxm-demo/?storefront=envato-elements +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://bestwpware.com/html/tf/laxm-demo/?storefront=envato-elements -O1 "C:\Users\Asus\Downloads\Temp-web-grads1" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+08:41:05	Error: 	"Not Found" (404) at link https://bestwpware.com/html/tf/laxm-demo/assets/img/client/client1.png (from https://bestwpware.com/html/tf/laxm-demo/?storefront=envato-elements)
+08:41:05	Error: 	"Not Found" (404) at link https://bestwpware.com/html/tf/laxm-demo/assets/img/client/client2.png (from https://bestwpware.com/html/tf/laxm-demo/?storefront=envato-elements)
+08:41:05	Error: 	"Not Found" (404) at link https://bestwpware.com/html/tf/laxm-demo/assets/img/client/client3.png (from https://bestwpware.com/html/tf/laxm-demo/?storefront=envato-elements)
+08:41:05	Error: 	"Not Found" (404) at link https://bestwpware.com/html/tf/laxm-demo/assets/img/client/client5.png (from https://bestwpware.com/html/tf/laxm-demo/?storefront=envato-elements)
+08:41:08	Error: 	"Not Found" (404) at link https://bestwpware.com/html/tf/laxm-demo/assets/owlcarousel/css/grabbing.png (from https://bestwpware.com/html/tf/laxm-demo/assets/owlcarousel/css/owl.carousel.css)
+08:41:08	Error: 	"Not Found" (404) at link https://bestwpware.com/html/tf/laxm-demo/assets/owlcarousel/css/AjaxLoader.gif (from https://bestwpware.com/html/tf/laxm-demo/assets/owlcarousel/css/owl.theme.css)
+08:41:30	Error: 	"Not Found" (404) at link https://bestwpware.com/html/tf/laxm-demo/assets/css/ytp-regular.eot (from https://bestwpware.com/html/tf/laxm-demo/assets/css/YTPlayer.css)
+08:41:30	Error: 	"Not Found" (404) at link https://bestwpware.com/html/tf/laxm-demo/assets/css/ytp-regular.ttf (from https://bestwpware.com/html/tf/laxm-demo/assets/css/YTPlayer.css)
+08:41:30	Error: 	"Not Found" (404) at link https://bestwpware.com/html/tf/laxm-demo/assets/images/raster.png (from https://bestwpware.com/html/tf/laxm-demo/assets/css/YTPlayer.css)
+08:41:30	Error: 	"Not Found" (404) at link https://bestwpware.com/html/tf/laxm-demo/assets/images/raster@2x.png (from https://bestwpware.com/html/tf/laxm-demo/assets/css/YTPlayer.css)
+08:41:30	Error: 	"Not Found" (404) at link https://bestwpware.com/html/tf/laxm-demo/assets/images/raster_dot.png (from https://bestwpware.com/html/tf/laxm-demo/assets/css/YTPlayer.css)
+08:41:30	Error: 	"Not Found" (404) at link https://bestwpware.com/html/tf/laxm-demo/assets/images/raster_dot@2x.png (from https://bestwpware.com/html/tf/laxm-demo/assets/css/YTPlayer.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 5 seconds : 79 links scanned, 66 files written (4084740 bytes overall) [3426839 bytes received at 27414 bytes/sec], 2402181 bytes transferred using HTTP compression in 47 files, ratio 32%, 19.7 requests per connection
+(12 errors, 0 warnings, 0 messages)
