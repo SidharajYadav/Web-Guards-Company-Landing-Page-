@@ -1490,3 +1490,10 @@ width: 40px;
 * 17.END FOOTER DESIGN
 * ----------------------------------------------------------------------------------------
 */
+
+
+.with-background {
+        background-size: cover;
+        background-position: center center;
+        background-image: url('assets/img/background.avif');
+    }
