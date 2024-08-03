@@ -26,6 +26,32 @@
 		<!-- Style CSS -->
 		<link rel="stylesheet" href="assets/css/style.css">	
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+	   <style>
+		.faq_desc .question {
+			cursor: pointer;
+			position: relative;
+			font-weight: bold;
+		}
+	
+		.faq_desc .question i {
+			margin-left: 10px;
+			transition: transform 0.3s ease;
+		}
+	
+		.faq_desc .collapse.show + i {
+			transform: rotate(180deg);
+		}
+	
+		.faq_desc .ans {
+			font-size: 1.8em; /* Increase the font size of the answers */
+		}
+	</style>
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -254,7 +280,7 @@
 					</div><!-- END COL-->
 					<div class="col-md-7 col-sm-12 col-xs-12">
 						<div class="single_feature_img">
-							<img class="img-responsive wow bounceIn" data-wow-delay=".6s" src="assets/img/hand.png" alt="Mockup of services on a phone">
+							<img class="img-responsive wow bounceIn" data-wow-delay=".6s" src="assets/img/appmockup.jpg" alt="Mockup of services on a phone">
 						</div>
 					</div><!-- END COL-->
 				</div><!-- END ROW-->
@@ -269,7 +295,7 @@
 				<div class="row">
 					<div class="col-md-7 col-sm-12 col-xs-12">
 						<div class="single_feature_two_img">
-							<img class="img-responsive wow bounceIn" data-wow-delay=".6s" src="assets/img/app-mockup-2.png" alt="Mockup of app features">
+							<img class="img-responsive wow bounceIn" data-wow-delay=".6s" src="assets/img/website-mockup-psd.jpg" alt="Mockup of app features">
 						</div>
 					</div><!-- END COL-->
 					<div class="col-md-5 col-sm-12 col-xs-12">
@@ -493,7 +519,7 @@
 					   <div class="plan first">
 						  <div class="head"><h3>Starter</h3></div> 
 						  <div class="price">
-							<h3><span class="symbol">$</span>29</h3>
+							<h3><span class="symbol">₹</span>1299</h3>
 							<h4>per month</h4>
 						  </div>                          
 						  <ul class="item-list">
@@ -508,7 +534,7 @@
 						<div class="plan recommended">
 							<div class="head"><h3>Professional</h3></div> 
 							<div class="price">
-							  <h3><span class="symbol">$</span>59</h3>
+							  <h3><span class="symbol">₹</span>3999</h3>
 							  <h4>per month</h4>
 							</div>                            
 							<ul class="item-list">
@@ -523,7 +549,7 @@
 						<div class="plan last">
 							<div class="head"><h3>Premium</h3></div>  
 							<div class="price">
-							  <h3><span class="symbol">$</span>89</h3>
+							  <h3><span class="symbol">₹</span>6999</h3>
 							  <h4>per month</h4>
 							</div>                            
 							<ul class="item-list">
@@ -551,43 +577,55 @@
 				<div class="row">   
 					<div class="col-md-6 col-sm-6 col-xs-12">
 						<div class="faq_desc">
-							<p class="question"><span>Q:</span> How can I request a quote from Web Guards Digital Solutions?</p>
-							<p class="ans"><span>A:</span>To request a quote from Web Guards Digital Solutions, simply visit our website and fill out the contact form with your requirements, and our team will reach out to you promptly.</p>
+							<p class="question" data-toggle="collapse" data-target="#answer1"><span>Q:</span> How can I request a quote from Web Guards Digital Solutions? <i class="fas fa-chevron-down"></i></p>
+							<div id="answer1" class="collapse">
+								<p class="ans">To request a quote from Web Guards Digital Solutions, simply visit our website and fill out the contact form with your requirements, and our team will reach out to you promptly.</p>
+							</div>
 						</div>
 					</div><!--- END COL -->
 					<div class="col-md-6 col-sm-6 col-xs-12">
 						<div class="faq_desc">
-							<p class="question"><span>Q:</span> What services does Web Guards Digital Solutions offer?</p>
-							<p class="ans"><span>A:</span> Web Guards Digital Solutions offers a wide range of services including software development, web design, digital marketing, 2D and 3D planning and architecture, and digital solutions tailored to meet diverse business needs.</p>
-						</div>
-					</div><!--- END COL -->                 <!--- END COL --><!--- END COL -->
-					<div class="col-md-6 col-sm-6 col-xs-12">
-						<div class="faq_desc">
-							<p class="question"><span>Q:</span>  How can I contact Web Guards Digital Solutions?</p>
-							<p class="ans"><span>A:</span> You can contact Web Guards Digital Solutions through our website contact form, email at hello@webguards.com, or by calling +91 9511271257.</p>
+							<p class="question" data-toggle="collapse" data-target="#answer2"><span>Q:</span> What services does Web Guards Digital Solutions offer? <i class="fas fa-chevron-down"></i></p>
+							<div id="answer2" class="collapse">
+								<p class="ans"> Web Guards Digital Solutions offers a wide range of services including software development, web design, digital marketing, 2D and 3D planning and architecture, and digital solutions tailored to meet diverse business needs.</p>
+							</div>
 						</div>
 					</div><!--- END COL -->
 					<div class="col-md-6 col-sm-6 col-xs-12">
 						<div class="faq_desc">
-							<p class="question"><span>Q:</span> What industries does Web Guards Digital Solutions serve?</p>
-							<p class="ans"><span>A:</span> Web Guards Digital Solutions serves various industries including construction, architecture, retail, and more, providing tailored digital solutions to enhance business operations.</p>
-						</div>
-					</div><!--- END COL --><!--- END COL -->
-					<div class="col-md-6 col-sm-6 col-xs-12">
-						<div class="faq_desc">
-							<p class="question"><span>Q:</span> What are the advantages of choosing Web Guards Digital Solutions?</p>
-							<p class="ans"><span>A:</span> By choosing Web Guards Digital Solutions, you benefit from innovative solutions, dedicated customer support, and a commitment to delivering exceptional digital experiences tailored to your business goals.</p>
+							<p class="question" data-toggle="collapse" data-target="#answer3"><span>Q:</span> How can I contact Web Guards Digital Solutions? <i class="fas fa-chevron-down"></i></p>
+							<div id="answer3" class="collapse">
+								<p class="ans"> You can contact Web Guards Digital Solutions through our website contact form, email at hello@webguards.com, or by calling +91 9511271257.</p>
+							</div>
 						</div>
 					</div><!--- END COL -->
 					<div class="col-md-6 col-sm-6 col-xs-12">
 						<div class="faq_desc">
-							<p class="question"><span>Q:</span> How does Web Guards Digital Solutions ensure data security?</p>
-							<p class="ans"><span>A:</span> At Web Guards Digital Solutions, we prioritize data security through robust measures and protocols, ensuring your information remains safe and protected.</p>
+							<p class="question" data-toggle="collapse" data-target="#answer4"><span>Q:</span> What industries does Web Guards Digital Solutions serve? <i class="fas fa-chevron-down"></i></p>
+							<div id="answer4" class="collapse">
+								<p class="ans">Web Guards Digital Solutions serves various industries including construction, architecture, retail, and more, providing tailored digital solutions to enhance business operations.</p>
+							</div>
+						</div>
+					</div><!--- END COL -->
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="faq_desc">
+							<p class="question" data-toggle="collapse" data-target="#answer5"><span>Q:</span> What are the advantages of choosing Web Guards Digital Solutions? <i class="fas fa-chevron-down"></i></p>
+							<div id="answer5" class="collapse">
+								<p class="ans">By choosing Web Guards Digital Solutions, you benefit from innovative solutions, dedicated customer support, and a commitment to delivering exceptional digital experiences tailored to your business goals.</p>
+							</div>
+						</div>
+					</div><!--- END COL -->
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="faq_desc">
+							<p class="question" data-toggle="collapse" data-target="#answer6"><span>Q:</span> How does Web Guards Digital Solutions ensure data security? <i class="fas fa-chevron-down"></i></p>
+							<div id="answer6" class="collapse">
+								<p class="ans"> At Web Guards Digital Solutions, we prioritize data security through robust measures and protocols, ensuring your information remains safe and protected.</p>
+							</div>
 						</div>
 					</div><!--- END COL -->
 				</div><!--- END ROW -->
 			</div><!--- END CONTAINER -->
-		</section>
+		</section>       
 		
 		
 		<!-- END TESTIMONIAL -->
@@ -700,7 +738,7 @@
 								</ul>
 							</div>							
 							<div class="copyright">
-								<p>&copy; 2019 All Rights Reserved.</p>
+								<p>&copy; 2024 All Rights Reserved.</p>
 							</div>
 						</div><!--- END FOOTER COPYRIGHT -->
 					</div><!--- END COL -->		
@@ -720,7 +758,7 @@
 						<div class="single_footer single_footer_address">
 							<h4>Get in touch</h4>
 							<ul>
-								<li><span>Address:</span>Vita,Sangli</li>
+								<li><span>Address:</span>Pune</li>
 								<li><p>Email: <a href="mailto:hello@webguards.com">hello@webguards.com</a></p> </li>
 								<li><span>Phone:</span> +91 9511271257 </li>
 								<li><span>Work Time:</span> Mon - Fri: 08.00 - 18.00</li>
@@ -731,7 +769,7 @@
 						<!-- <div class="single_footer single_footer_address">
 							<h4>Subscribe Today</h4>
 							<div class="signup_form">							
-								<!-- Replace the form action in the line below with your MailChimp embed action! -->
+								 Replace the form action in the line below with your MailChimp embed action! -->
 								<!-- <form novalidate="" target="_blank" class="validate" name="mc-embedded-subscribe-form" method="post" action="http://site90.us11.list-manage.com/subscribe/post?u=599a2153f4b86cb2f92d4af3a&amp;id=26d7c26287">
 									<input type="email" placeholder="Enter Email" id="mce-email" class="form-control" name="EMAIL">
 									<span><button class="btn btn-detault btn-light-bg" name="subscribe" type="submit">Subscribe</button></span>
