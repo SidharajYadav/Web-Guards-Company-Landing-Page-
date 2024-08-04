@@ -3,7 +3,7 @@ https://66af851e388a07a4394ab023--webguards-digitalsolutions.netlify.app/
 
 
 <a href="" target="_blank">
-      <img src="https://github.com/SidharajYadav/Event-management-platform/blob/main/public/assets/images/Event-Home.jpg](https://github.com/SidharajYadav/Web-Guards-Company-Landing-Page-/blob/main/bestwpware.com/html/tf/Web-Guards-LandingPage/assets/images/Web-Guards%20Home%20page.jpg" alt="Project Banner">
+      <img src="https://github.com/SidharajYadav/Web-Guards-Company-Landing-Page-/blob/main/bestwpware.com/html/tf/Web-Guards-LandingPage/assets/images/Web-Guards%20Home%20page.jpg" alt="Project Banner">
     </a>
 
 
