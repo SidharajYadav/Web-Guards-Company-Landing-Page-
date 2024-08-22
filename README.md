@@ -17,7 +17,7 @@ https://webguards-digitalsolutions.netlify.app/
 
 # Web Guards Digital Solutions
 
-Welcome to Web Guards Digital Solutions! Our mission is to provide comprehensive digital solutions tailored to your unique needs. Here is an overview of the services we offer:
+Welcome to Web Guards Digital Solutions! Our mission is to provide comprehensive digital solutions tailored to your unique needs. Here is an overview of the services we offer: 
 
 ## Services
   
